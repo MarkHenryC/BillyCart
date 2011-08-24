@@ -1,0 +1,22 @@
+settings =
+{
+	androidPermissions =
+	{
+		"android.permission.READ_PHONE_STATE",
+	},
+
+	orientation =
+	{
+			default = "landscapeRight",
+	},	
+
+	iphone =
+	{
+		plist =
+		{	
+			UIStatusBarHidden = true,
+			UIApplicationExitsOnSuspend = true,		
+		},
+	},
+	
+}
